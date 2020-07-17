@@ -18,10 +18,10 @@
 }
 .main{
 	width: 1440px;
-	
+	box-sizing: border-box;
 }
 .column{
-	position: inline-block;
+	display: inline-block;
 	width: 400px;
 	height: 800px;
 	border: 5px solid #E5E000;
@@ -30,33 +30,26 @@
 
 }
 .column.first{
-position: absolute;
-left: 70px;
-top: 112px;
+	display: inline-block;
+	margin: 112px 50px 112px 70px;
 }
 .column.second{
-position: absolute;
-left: 520px;
-top: 112px;
+	display: inline-block;
+	margin: 112px 50px 112px 0px;
 	
 }
 .column.third{
-position: absolute;
-left: 970px;
-top: 112px;
+	display:  inline-block;
+	margin: 112px 0px 112px 0px;
 	
 }
-.footer{
-	position: absolute;
-	left: 0;
-	top: 964px;
-}
+	
 h1{
 	font-family: Helvetica;
-    font-size: 20px;
-    padding: 33px 160px 41px 33px ;
+	font-size: 20px;
+	padding: 33px 160px 41px 33px ;
 }
-p{
+ul{
 	font-family: Times New Roman;
     font-size: 20px;
     line-height: 23px;
