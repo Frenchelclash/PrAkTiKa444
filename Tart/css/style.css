@@ -1,7 +1,19 @@
-@import url(reset.css);
 * {
+	margin:0;
+	padding: 0;
 	box-sizing: border-box;
 
+}
+@font-face{
+	src: url(../fonts/Helvetica CE Regular.ttf);
+	font-family: "Helvetica";
+	font-weight: normal;
+}
+
+@font-face{
+	src: url(../fonts/TNR.ttf);
+	font-family: "Times New Roman";
+	font-weight: normal;
 }
 html{
 	font-size: 10px;
@@ -59,15 +71,21 @@ img{
 
 	
 }
-h1{
+.column h1{
 	font-weight: bold;
+	font-size: 2rem;
 }
-h2 {
+.column h2 {
 	 margin-top: 3.5rem;
+	 font-weight: normal;
+	 font-size: 2rem;
 }
 ul{
 	font-family: Times New Roman;
     font-size: 2rem;
     line-height: 2.3rem;
    
+ }
+ li{
+ 	list-style-type: none;
  }
