@@ -33,12 +33,10 @@ body {
 	
     font-weight: bold;
     padding:2rem;
-
-    display: flex;
-    justify-content: space-between;
-
 }
 .logo{
+	position: absolute;
+	left:133rem;
 	height: 2rem;
 }
 .main{
