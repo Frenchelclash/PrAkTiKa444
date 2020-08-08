@@ -33,10 +33,12 @@ body {
 	
     font-weight: bold;
     padding:2rem;
+    position: relative;
 }
 .logo{
 	position: absolute;
-	left:133rem;
+	top: 2rem;
+	right: 2rem;
 	height: 2rem;
 }
 .main{
