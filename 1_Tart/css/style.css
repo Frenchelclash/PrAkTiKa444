@@ -15,6 +15,10 @@
 	font-family: "Times New Roman";
 	font-weight: normal;
 }
+:root {
+--color-primary: #FE1A19;
+--color-secondary: #E5E000;
+}
 html{
 	font-size: 62.5%;
 }
@@ -26,9 +30,9 @@ body {
 .wrapper {
 	width: 144rem;
 }
-.header, .footer{
+header, footer{
 	height: 6rem;
-	background-color: #FE1A19;
+	background-color: var(--color-primary);
 	color: white;
 	
     font-weight: bold;
@@ -37,11 +41,11 @@ body {
 }
 .logo{
 	position: absolute;
-	top: 2rem;
+	bottom: 2rem;
 	right: 2rem;
 	height: 2rem;
 }
-.main{
+main{
 	margin: 11.2rem 0;
 	text-align: center;
 }
@@ -49,7 +53,7 @@ body {
 	display: inline-block;
 	width: 40rem;
 	
-	border: 5px solid #E5E000;
+	border: 5px solid var(--color-secondary);
 	border-radius: 30px;
 	text-align: left;
 	padding: 3.3rem;
