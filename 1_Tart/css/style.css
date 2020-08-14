@@ -30,7 +30,7 @@ body {
 .wrapper {
 	width: 144rem;
 }
-header, footer{
+.header, .footer{
 	height: 6rem;
 	background-color: var(--color-primary);
 	color: white;
@@ -45,7 +45,7 @@ header, footer{
 	right: 2rem;
 	height: 2rem;
 }
-main{
+.main{
 	margin: 11.2rem 0;
 	text-align: center;
 }
