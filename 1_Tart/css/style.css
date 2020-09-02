@@ -16,8 +16,8 @@
 	font-weight: normal;
 }
 :root {
---color-primary: #FE1A19;
---color-secondary: #E5E000;
+    --color-primary: #FE1A19;
+    --color-secondary: #E5E000;
 }
 html{
 	font-size: 62.5%;
@@ -34,8 +34,7 @@ body {
 	height: 6rem;
 	background-color: var(--color-primary);
 	color: white;
-	
-    font-weight: bold;
+	font-weight: bold;
     padding:2rem;
     position: relative;
 }
@@ -69,9 +68,9 @@ body {
 	font-weight: bold;
 }
 .column h2 {
-	 margin-top: 3.5rem;
-	 font-weight: normal;
-	 font-size: 2rem;
+	margin-top: 3.5rem;
+	font-weight: normal;
+	font-size: 2rem;
 }
 ul{
 	font-family: Times New Roman;
