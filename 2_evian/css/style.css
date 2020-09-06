@@ -21,9 +21,6 @@ body {
     font-size: 2.5rem;
     line-height:2.9rem;
 }
-.wrapper {
-	width: 144rem;
-}
 .header {
 	background-color: white;
 	width: 100%;
@@ -37,10 +34,8 @@ body {
 
     position: fixed;
 	top: 0;
-	left: 0;
-	z-index: 1;
 }
-.links {
+.links ul {
 	width: 44rem;
 	display: flex;
 	justify-content: space-between;
@@ -58,12 +53,14 @@ body {
 .logo {
 	height: 95rem;
 	background-image: url(../img/evian_origins_logo.png);
+	background-position: center;
 	color: var(--color-secondary);
 	font-size: 10rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-top: 14rem;
+
 }
 .main {
 	display: flex;
@@ -75,7 +72,6 @@ body {
 	border: .3rem solid var(--color-primary);
 	border-radius: 20px; 
 	width: 104rem;
-
 	margin: 15rem 0;
 }
 .water p{
@@ -83,7 +79,7 @@ body {
 }
  .composition p{
  	margin: 3rem;
- }
+}
 
 .bottles {
 	display: flex;
@@ -106,7 +102,6 @@ body {
 	width: 10.1rem;
 	float: left;
 	margin:3rem 5rem 3rem 8rem;
-
 }
 .wang, .blue, .chiara {
 	max-width: 100%;
@@ -116,13 +111,11 @@ body {
 	height: 14rem;
 	background-color: var(--color-primary);
 	color: white;
-
 	font-size: 5rem;
 
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	
 }
 .back {
 	text-decoration: none;
@@ -131,4 +124,7 @@ body {
 }
 .copyright {
 	margin-left: 5rem;
+}
+li{
+	list-style-type: none;
 }
