@@ -56,7 +56,7 @@ body {
 .logo {
 	height: 95rem;
 	background-image: url(../img/evian_origins_logo.png);
-	background-position: center;
+	background-size: cover;
 	color: var(--color-secondary);
 	font-size: 10rem;
 	display: flex;
