@@ -31,9 +31,8 @@ body{
 	margin: auto;
 }
 .column{
-	width: calc((100% - 10rem)/3);
+	width: calc((100% - 7.69vw)/3);
 	border: 1px solid black;
-	margin: 7rem;
 }
 .main{
 	display: flex;
@@ -41,6 +40,7 @@ body{
 	justify-content: space-between;
 	font-size: 2rem;
 	line-height: 2.3rem;
+	padding: 7rem;
 }
 .image{
 	background-size: cover;
