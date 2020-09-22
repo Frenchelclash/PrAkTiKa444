@@ -1,0 +1,77 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font:inherit;
+}
+@font-face{
+	src: url(../fonts/TNR.ttf);
+	font-family: "Times New Roman";
+	font-weight: normal;
+}
+html {
+	font-size: 62.5%;
+}
+body{
+	font-family: Times New Roman;
+} 
+.wrapper{
+		width: 100%;
+}
+.header , .footer {
+	height: 16rem;
+	background-color: #FEB700;
+	font-size: 5rem;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.HBC{
+	margin: auto;
+}
+.column{
+	width: calc((100% - 10rem)/3);
+	border: 1px solid black;
+	margin: 7rem;
+}
+.main{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	font-size: 2rem;
+	line-height: 2.3rem;
+}
+.image{
+	background-size: cover;
+	background-position: center;
+	min-height: 60rem;
+	padding-bottom: 100%;
+}
+.image.first{
+	background-image: url(../img/wrap.png);
+}	
+.image.second{
+	background-image: url(../img/bars.png);
+	
+}
+.image.third{
+	background-image: url(../img/granola.png);
+}
+h2, ul, h3, p {
+	margin:3rem 3.3rem;
+}
+li{
+	list-style-type: none;
+}
+h2{
+	font-weight: bold;
+}
+.back {
+	text-decoration: none;
+	color: black;
+	margin-right: 5rem;
+}
+.year {
+	margin-left: 5rem;
+}
