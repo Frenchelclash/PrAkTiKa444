@@ -38,6 +38,7 @@ body{
 	display: flex;
 	flex-flow: row;
 	justify-content: space-between;
+	align-items: flex-start;
 	font-size: 2rem;
 	line-height: 2.3rem;
 	padding: 7rem;
@@ -45,8 +46,8 @@ body{
 .image{
 	background-size: cover;
 	background-position: center;
-	min-height: 60rem;
-	padding-bottom: 100%;
+	width: 100%;
+	padding-top: 150%;
 }
 .image.first{
 	background-image: url(../img/wrap.png);
