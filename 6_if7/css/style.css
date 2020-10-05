@@ -16,7 +16,7 @@ body{
 	font-family: Helvetica;
 }
 .wrapper{
-		width: 100vw;
+		width: 100%;
 }
 .header , .footer {
 	height: 9.76vh;
@@ -50,6 +50,7 @@ h1{
 	text-align: center;
 	display: flex;
 	align-items: center;
+	
 }
 .layer{
 	display: flex;
@@ -62,7 +63,7 @@ h1{
 	margin-left: 2rem; 
 }
 h2{
-	margin:9.76vh 0;
+	padding: 15.5% 0;
 }
 @media screen and (max-width: 400px){
 
