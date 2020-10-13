@@ -1,0 +1,126 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font:inherit;
+}
+@font-face{
+	src: url(../fonts/Helvetica CE Regular.ttf);
+	font-family: "Helvetica";
+	font-weight: normal;
+}
+:root {
+    --color-primary: #F8BFC7;
+    --color-secondary: #FEB700;
+}
+html {
+	font-size: 62.5%;
+}
+body{
+	font-family: Helvetica, sans-serif;
+	font-size: 1.388vw;
+}
+.wrapper{
+	width: 100%;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+li{
+	display: inline-block;
+	list-style-type: none;
+}
+.main{
+	background-color: #336FD1;
+}
+.header, .footer{
+	height: 6.25vw;
+	background-color: var(--color-primary);
+	font-weight: bold;
+	text-transform: uppercase;
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.menu,.mystery{
+	margin-left: 3.472vw;
+}
+.MB,.copyright{
+	margin-right:3.472vw;
+}
+.mystery, .copyright{
+	color: white;
+}
+.one, .two{
+	margin-right: 2.08vw;
+}
+
+.top{
+	height: 44.652vw;
+	background-image: url(../img/background.png);
+	background-position: center;
+	background-size: cover;
+
+	padding: 6.25vw 0 8.402vw 6.25vw
+}
+input{
+	display: flex;
+	background-color:transparent;
+	border-style: none;
+	height: 1.597vw;
+}
+.feedback{
+	width: 20.83vw;
+	border: 3px solid white;
+	border-radius: 20px;
+	background-color: var(--color-primary);
+	color: white;
+
+	padding: 2.08vw;
+}
+input[type="text"], input[type="email"]{
+	margin: 1.11vw 0;
+	border-bottom: 1px solid white;
+	color: white;
+}
+input[type="text"]:focus, input[type="email"]:focus{
+	outline: transparent;
+}
+input[type="submit"]{
+	height: 4.16vw;
+	padding: 0 2.569vw;
+	background-color: var(--color-secondary);
+	color: white;
+	border:3px solid white;
+	border-radius: 30px;
+	margin:0.694vw 3.472vw;
+
+}
+input[type="submit"]:hover{
+	border-color: var(--color-secondary);
+	cursor: pointer;
+
+}
+input::placeholder{
+	color: white;
+}
+label{
+	font-weight: bold;
+}
+input:focus{
+	outline-color: white;
+}
+.bottom{
+	height: 13.958vw;
+	display: flex;
+}
+.message{
+	color: var(--color-secondary);
+	font-size: 3.472vw;
+	font-weight: bold;
+	margin: auto;
+	margin-top: 2.08vw;
+}
