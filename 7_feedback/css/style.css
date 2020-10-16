@@ -33,6 +33,7 @@ li{
 }
 .main{
 	background-color: #336FD1;
+	minheight: calc(100vh - 12.5vw)
 }
 .header, .footer{
 	height: 6.25vw;
@@ -59,7 +60,6 @@ li{
 }
 
 .top{
-	height: 44.652vw;
 	background-image: url(../img/background.png);
 	background-position: center;
 	background-size: cover;
@@ -114,13 +114,11 @@ input:focus{
 	outline-color: white;
 }
 .bottom{
-	height: 13.958vw;
 	display: flex;
 }
 .message{
 	color: var(--color-secondary);
 	font-size: 3.472vw;
 	font-weight: bold;
-	margin: auto;
-	margin-top: 2.08vw;
+	margin: 2.08vw auto 7.916vw;
 }
