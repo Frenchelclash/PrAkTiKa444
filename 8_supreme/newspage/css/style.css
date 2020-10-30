@@ -1,0 +1,142 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font:inherit;
+}
+
+@font-face{
+	src: url(../../fonts/arial.ttf);
+	font-family: "Arial";
+	font-weight: normal;
+}
+@font-face{
+	src: url(../../fonts/SpaceMono.ttf);
+	font-family: "SM";
+	font-weight: normal;
+}
+html {
+	font-size: 62.5%;
+}
+body{
+	font-family: SM;
+	font-size: 1.388vw; 
+	color: black; 
+}
+.wrapper{
+	padding: 12.638vw 18.05vw 6.875vw;
+}
+.header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.supreme{
+	width: 19.93vw;
+	height: 5.694vw;
+	background-color: red;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 4.16vw;
+	line-height: 4.79vw;
+	color: white;
+
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2.638vw;
+}
+.date{
+	margin-bottom: 4.3vw;
+}
+.main{
+	display: flex;
+}
+.sup{
+	height: 18vw;
+	margin-top: 2.6vw;
+}
+.nav{
+	margin: 3.47vw 0 0 10.97vw ;
+}
+.left{
+	display: flex;
+	flex-direction: column;
+}
+.right{
+	display: flex;
+	flex-direction: column;
+	width: 27.77vw;
+	margin-left: 1.38vw ;
+}
+.text{
+	height: 19vw;
+	overflow-y: hidden;
+	margin: 1.6vw 0;
+}
+.archive{
+	width: 5.9722vw;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+.menu ul{
+	display: flex;
+	justify-content: space-between;
+}
+li{
+	list-style-type: none;
+}
+a:hover{
+	color: white;
+	background-color: red;
+}
+.footer{
+	margin-top: 8.68vw;
+}
+
+@media screen and (max-width: 414px){
+	body{
+	   font-size: 4.83vw;
+	}
+	.wrapper{
+	   padding:28.5vw 2.89vw 0;
+	}
+	.supreme{
+	   width: 69.32vw;
+	   height: 19.8vw;
+	   font-size: 14.49vw;
+	   line-height: 16.66vw;
+	   margin-bottom: 9.178vw;
+    }
+    .date{
+       margin-bottom: 12.07vw;
+    }
+    .main{
+       flex-direction: column;
+    }
+    .sup{
+       height: 62.8vw;
+    }
+    .nav{
+       margin: 4.83vw 0 9.66vw;
+       align-self: center;
+    }
+    .right{
+       width: 100%;
+       margin: 0;
+    }
+    .text{
+       height: 100%;
+    }
+    .menu ul{
+    	flex-flow: column;
+    	align-items: flex-end;
+    }
+    .vol2{
+    	font-weight: bold;
+    	margin-bottom: 2.89vw;
+    }
+    }

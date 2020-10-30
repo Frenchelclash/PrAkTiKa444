@@ -33,7 +33,7 @@ li{
 }
 .main{
 	background-color: #336FD1;
-	minheight: calc(100vh - 12.5vw)
+	min-height: calc(100vh - 12.5vw)
 }
 .header, .footer{
 	height: 6.25vw;
