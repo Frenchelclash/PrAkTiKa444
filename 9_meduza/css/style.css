@@ -1,0 +1,271 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font:inherit;
+}
+@font-face{
+	src: url(fonts/PFRegalTextPro.ttf);
+	font-family: "PFRegalPro";
+	font-weight: normal;
+}
+html{
+	font-size: 62.5%;
+}
+body{
+	background-color: black;
+	font-family: sans-serif;
+	font-size:1.041vw;
+	line-height: 1.25vw;
+}
+.wrapper{
+	width: 100%;
+	padding: 2.77vw 4.166vw;
+}
+.header{
+	text-transform: uppercase;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	height: 1.38vw;
+}
+ul{
+	width: 36.11vw;
+	display: flex;
+	justify-content: space-between;
+}
+.newsbutton{
+	color: #A37846;
+}
+a{
+	text-decoration: none;
+	color: white;	
+}
+li{
+	list-style-type: none;
+}
+.menu{
+	display: flex;
+}
+.delimiter{
+	height: 1.736vw;
+	border-left: 1px solid white;
+	margin: 0 1.38vw;
+}
+.search{
+	background-color: transparent;
+	border:none;
+}
+.magnifier{
+	width: 
+}
+.magnifier_circle{
+	width: 1.041vw;
+	height: 1.041vw;
+	border-radius: 50%;
+	border:1px solid white;
+}
+.magnifier_hand{
+	width: .416vw;
+	border-bottom: 1px solid white;
+	transform: rotate(45deg);
+
+	position: relative;
+	left: 0.83vw;
+	bottom: 1px;
+}
+.buttons{
+	display: flex;
+	align-items: center;
+}
+.main{
+	color: black;
+}
+.infopanel{
+	width: 91.66vw;
+	height: 3.88vw;
+	background-color: white;
+	border-radius: 10px;
+	font-size: 1.18vw;
+	line-height: 1.418vw;
+	text-transform: uppercase;
+	font-weight: bold;
+	color:#9CA1A9;
+
+	margin-top: 2.22vw;
+	padding: 1.11vw 1.25vw;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.switch{
+    width: 3.33vw;
+    height: 1.8vw;
+    position: relative;
+    display: inline-block;
+    margin-left: 0.694vw;
+}
+.switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #E6E6E6;
+    transition: .4s;
+    border-radius: 34px;
+    border-color: #E6E6E6;
+}
+.slider:before{
+    position: absolute;
+    content: "";
+    height: 1.38vw;
+    width: 1.38vw;
+    left: 0.2vw;
+    bottom: 0.2vw;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+input:checked + .slider{
+    background-color: #A37846;
+}
+input:focus + .slider{
+    box-shadow: 0 0 1px #A37846;
+}
+input:checked + .slider:before{
+    transform: translateX(1.5vw);
+}
+.orderswitch{
+	display: flex;
+	align-items: center;
+}
+.number{
+	color: black;
+}
+.newswrapper{
+	width: 91.66vw;
+	background-color: #F2F2F2;
+	border-radius: 10px 10px 0px 0px;
+
+	margin: 1.0416vw 0 3.472vw;
+	padding: 4.16vw 4.16vw 6.11vw;
+
+	display: flex;
+	flex-direction: column;
+}
+section.container{
+	width: 83.33vw;
+	background-color: white;
+	border-radius: 10px;
+	margin: auto;
+}
+.important{
+	height: 17.36vw;
+	border: 5px solid #A37846;
+	padding: 3.125vw 4.583vw 2.013vw;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.container.news_section{
+	height: 30.27vw;
+	border-radius: 10px;
+	border: 1px solid #9CA1A9;
+
+	margin-top: 1.38vw;
+	padding: 2.08vw;
+
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	grid-row-gap: 3.472vw;
+}
+h1, h2, h3{
+	font-family: PFRegalPro;
+}
+h1{
+	font-size: 3.47vw;
+	line-height: 3.47vw;
+}
+h2{
+	font-size: 2.43vw;
+	line-height: 2.847vw;
+}
+h3{
+	font-size: 1.38vw;
+	line-height: 1.597vw;
+}
+.time{
+	color:#9CA1A9;
+	font-size: 1.0416vw;
+	
+	font-weight: bold;
+}
+.newsbox{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.newsbox.one{
+	grid-column-start:1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+h4{
+	color: white;
+	text-transform: uppercase;
+	margin:0 0 1.66vw;
+}
+.links ul{
+	width: 13.8vw;
+	text-transform: capitalize;
+	line-height: 150%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.links{
+
+	margin: auto;
+	display: grid;
+	grid-template-rows: repeat(2, 10.416vw);
+	grid-template-columns: repeat(5, 13.8vw);
+	grid-row-gap: 4vw;
+}
+.socialnetworks{
+	grid-column-start:2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+.footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.line{
+	width: 72.22vw;
+	size: 1;
+	color: #FFFFFF;
+	background-color: white;
+	margin-top: 3.472vw;
+}
+.message{
+	color: white;
+	margin: 2.57vw 0 0 12.152vw;
+	align-self: flex-start;
+}

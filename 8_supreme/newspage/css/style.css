@@ -71,7 +71,7 @@ body{
 }
 .text{
 	height: 19vw;
-	overflow-y: scroll;
+	overflow: auto;
 	margin: 1.6vw 0;
 }
 .archive{
